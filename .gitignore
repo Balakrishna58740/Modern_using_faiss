@@ -1,0 +1,4 @@
+.venv/
+_pycache_/
+movie_map1.pkl/
+faiss_index1.pkl/

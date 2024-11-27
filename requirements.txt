@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+faiss-cpu
+pydantic
+sentence-transformers
+torch
+faiss-cpu
+numpy
+packaging
