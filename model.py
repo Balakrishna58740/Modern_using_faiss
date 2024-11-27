@@ -8,7 +8,7 @@ from db_config import mongodb  # Assumes a configured MongoDB instance
 
 class MovieRecommender:
     VECTOR_SIZE = 384  # Embedding vector size from SentenceTransformer
-    MODEL = SentenceTransformer("all-MiniLM-L6-v2")  # Pre-trained model
+    MODEL = SentenceTransformer("paraphrase-MiniLM-L3-v2")  # Pre-trained model
     index = None  # FAISS index for L2 distance
     movie_map = {}  # Map to store movie ID and metadata for lookup
     INDEX_FILE = "faiss_index1.bin"
